@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.container {
+    width: 1200px;
+}
+.searchHeader {
+    display: block;
+    padding: 30px;
+    border-bottom: solid 1px gray;
+}
+.recipesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: inherit;
+}
+.recipe {
+    flex-basis: 275px;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border: 1px solid gray;
+}
