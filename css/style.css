@@ -25,3 +25,10 @@ html {
     flex-shrink: 1;
     border: 1px solid gray;
 }
+span {
+    background-color: gray;
+    color: white;
+    padding: 3px;
+    margin: 5px;
+    line-height: 10px;
+}
